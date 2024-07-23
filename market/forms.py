@@ -3,7 +3,7 @@ from wtforms import StringField, PasswordField, SubmitField
 
 
 class RegisterForm(FlaskForm):
-    username = StringField(labal='username')
+    username = StringField(label='username')
     email_address = StringField(label='email')
     password1 = PasswordField(label='password1')
     password2 = PasswordField(label='password2')
